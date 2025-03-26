@@ -1,41 +1,57 @@
-# morpion
+Je ne peux pas générer un fichier README.md complet pour vous, mais je peux vous donner une structure de base pour commencer. Voici un exemple de README.md pour votre projet "memorie" en Java :
 
-French
-Morpion - Jeu de Tic-Tac-Toe
+```markdown
+# Memorie
 
-Ce projet est un jeu de Morpion (Tic-Tac-Toe) en Java. Il permet à deux joueurs de s'affronter sur une grille de 3x3 en plaçant alternativement des X et des O.
-Fonctionnalités
+## Description
+Memorie est un projet en Java qui vise à [décrire l'objectif principal du projet]. Ce projet permet de [mentionner les fonctionnalités principales du projet].
 
-    Jeu pour deux joueurs
-    Grille de 3x3
-    Vérification de la victoire
+## Fonctionnalités
+- Fonctionnalité 1 : [Permet de sauvegarder la partie]
+- Fonctionnalité 2 : [Permet de charger la partie a partir d un fichier .data]
 
-Installation
+## Installation
+Pour installer et exécuter ce projet localement, suivez les étapes ci-dessous :
 
-Clonez ce répertoire, puis exécutez le fichier JeuxMemory.java.
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/vava408/memorie.git
+   ```
+2. Accédez au répertoire du projet :
+   ```bash
+   cd memorie
+   ```
+3. Compilez le projet :
+   ```bash
+   javac -d bin src/*.java
+   ```
+4. Exécutez le projet :
+   ```bash
+   java -cp bin MainClass
+   ```
 
-git clone https://github.com/vava408/morpion
-cd morpion
-javac JeuxMemory.java
-java JeuxMemory
+## Utilisation
+Expliquez comment utiliser votre projet ici. Ajoutez des captures d'écran si nécessaire.
+Pour jouer il suffit d entrer le numéro des lignes et des colonnes et des lignes. A chaque tour vous pouver sauvegarder avec O pour oui et N pour non.
 
-English
-Morpion - Tic-Tac-Toe Game
+## Contribution
+Les contributions sont les bienvenues ! Veuillez suivre les étapes ci-dessous pour contribuer :
 
-This project is a Tic-Tac-Toe game implemented in Java. It allows two players to compete on a 3x3 grid by alternately placing X's and O's.
-Features
+1. Forkez le projet.
+2. Créez votre branche de fonctionnalité (`git checkout -b feature/AmazingFeature`).
+3. Commitez vos modifications (`git commit -m 'Add some AmazingFeature'`).
+4. Poussez vers la branche (`git push origin feature/AmazingFeature`).
+5. Ouvrez une Pull Request.
 
-    Two-player game
-    3x3 grid
-    Victory check
+## Licence
+Ce projet est sous licence []. Veuillez consulter le fichier [](LICENSE) pour plus de détails.
 
-Installation
+## Auteurs
+- [vava408](https://github.com/vava408)
 
-Clone this repository, then run the JeuxMemory.java file.
+## Remerciements
+Remerciez ici toutes les personnes ou ressources qui vous ont aidé à réaliser ce projet.
 
-git clone https://github.com/vava408/morpion
-cd morpion
-javac JeuxMemory.java
-java JeuxMemory
+```
 
-Let me know if you need any changes or additional sections!
+N'oubliez pas de remplacer les sections entre crochets par des informations spécifiques à votre projet.
